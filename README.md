@@ -12,10 +12,10 @@ Code snippets, some with tab placeholders to easily set options in snippet.
 
 ### Register Helper
 
-`+pmprorh-starter` - Starter Template for Register Helper including a basic text field.
-`+pmprorh-checkoutbox-full` - Create checkout page location for custom fields. Includes name, title, description and order.
-`+pmprorh-checkoutbox-desc` - Create checkout page location for custom fields. Includes name, title, and description.
-`+pmprorh-checkoutbox` - Create checkout page location for custom fields. Includes name, and title.
+`+pmprorh-starter` - Starter Template for Register Helper including a basic text field. \
+`+pmprorh-checkoutbox-full` - Create checkout page location for custom fields. Includes name, title, description and order.\
+`+pmprorh-checkoutbox-desc` - Create checkout page location for custom fields. Includes name, title, and description.\
+`+pmprorh-checkoutbox` - Create checkout page location for custom fields. Includes name, and title.\
 `+pmprorh-field-text` - Create text field for Register Helper.
 
 
@@ -23,7 +23,7 @@ Code snippets, some with tab placeholders to easily set options in snippet.
 
 This extension is under development.
 
-### 0.1.0
+### 0.1.1
 
 Release of initial development
 
