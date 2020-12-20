@@ -1,0 +1,29 @@
+{
+    "name": "pmpro-snippets",
+    "displayName": "Snippets for PMPro",
+    "description": "Code snippets for Paid Membership Pro.",
+    "version": "0.1.0",
+    "publisher": "Theunis Coetzee",
+    "homepage": "https://github.com/ipokkel",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+		"pmpro",
+		"Paid Memberships Pro",
+		"WordPress"
+    ],
+    "icon": "img/Paid-Memberships-Pro_icon_shiny.png",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/pmprorh.code-snippets"
+            }
+        ]
+    }
+}
