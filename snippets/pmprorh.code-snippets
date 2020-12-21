@@ -52,7 +52,7 @@
       "\tforeach ( \\$fields as \\$field ) {",
       "\t\t// set default location",
       "\t\t\\$default_location = 'checkout_boxes';",
-      "\t\t\\$location = 'checkout_boxes';",
+      "\t\t\\$location = \\$default_location;",
       "",
       "\t\t// set custom location if a valid RH checkout box",
       "\t\tif ( ! empty( \\$field->location ) && pmprorh_getCheckoutBoxByName( \\$field->location ) ) {",
