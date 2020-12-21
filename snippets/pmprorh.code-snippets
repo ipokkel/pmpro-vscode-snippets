@@ -28,7 +28,7 @@
       " * Read this companion article for step-by-step directions on either method.",
       " * https://www.paidmembershipspro.com/create-a-plugin-for-pmpro-customizations/",
       " */",
-      "function my_pmprorh_init_custom_registration_fields_$CURRENT_SECONDS_UNIX() {",
+      "function my_pmprorh_wp_custom_registration_fields_$CURRENT_SECONDS_UNIX() {",
       "\t// don't break if Register Helper is not loaded",
       "\tif ( ! function_exists( 'pmprorh_add_registration_field' ) ) {",
       "\t\treturn false;",
@@ -73,7 +73,7 @@
       "",
       "\t// that's it. see the PMPro Register Helper readme for more information and examples.",
       "}",
-      "add_action( 'init', 'my_pmprorh_init_custom_registration_fields_$CURRENT_SECONDS_UNIX' );",
+      "add_action( 'wp', 'my_pmprorh_wp_custom_registration_fields_$CURRENT_SECONDS_UNIX' );",
       "${0}"
     ],
     "description": "PMPro Register Helper Starter Template"
