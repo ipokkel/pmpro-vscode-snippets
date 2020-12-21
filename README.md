@@ -23,6 +23,11 @@ Code snippets, some with tab placeholders to easily set options in snippet.
 
 This extension is under development.
 
+### [0.1.2]
+
+- FIX: hook RH field function into `wp` hook to be able to use is_page.
+- Refactor line.
+
 ### 0.1.1
 
 Release of initial development
