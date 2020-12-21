@@ -48,6 +48,7 @@
       "\t\t)",
       "\t);",
       "",
+      "\t\\$checkout_only_locations = array( 'after_username', 'after_password', 'after_email', 'after_captcha' );",
       "\tforeach ( \\$fields as \\$field ) {",
       "\t\t// set default location",
       "\t\t\\$default_location = 'checkout_boxes';",
